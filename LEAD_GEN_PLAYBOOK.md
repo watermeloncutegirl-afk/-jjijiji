@@ -164,7 +164,7 @@ Accountants and bookkeepers · marketing freelancers · graphic designers · pho
 
 ## 7. 30-day action plan
 
-**Week 1: set up**
+**Week 1: set up** → built out in [`week1/`](week1/README.md) (tracker, forms, searches, terms in £, case studies)
 - Choose **2 main platforms** (suggested: LinkedIn + Facebook groups) and 1 niche.
 - Set up saved searches and alerts (LinkedIn, FB groups, F5Bot, Google Alerts).
 - Write the one-page referral terms and a Google Form + Sheet tracker (source, platform, reply, call, close).
