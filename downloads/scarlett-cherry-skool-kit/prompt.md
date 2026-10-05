@@ -18,8 +18,15 @@ general knowledge disagree, follow the file.
 ## Who I am
 - **Brand:** Scarlett Cherry. I teach **AI automation for people who aren't technical**: building AI workflows (voice agents, n8n/Make automations, CRM pipelines) and getting paid for them.
 - **Framework:** **Build Once, Sell Two Ways.** Path A is freelance marketplace income (Upwork etc.). Path B is selling directly to businesses through cold outreach.
-- **Credibility:** Exeter, UN, a book chapter, published abstracts. [Add specifics]
-- **Proof I can show:** real builds, e.g. an AI voice agent (Vapi + Make.com + Airtable) that qualifies leads, calls them, logs the summary to the CRM and falls back to email/Slack. [Add any client results]
+- **Credibility:**
+  - I work as an **AI Analyst at the University of Exeter** and build AI automations for the university.
+  - My abstract on AI automation was published by **UN PRME** (the UN-supported Principles for Responsible Management Education) for a PRME event.
+  - My automations are featured in **scientific book chapters**.
+  - Use each of these as a standalone proof point (a Reel, a post or an About-page line), not just a bio line.
+- **Proof I can show:**
+  - Multiple shipped AI automation builds, e.g. an AI voice agent (Vapi + Make.com + Airtable) that qualifies leads, calls them, logs the summary to the CRM and falls back to email/Slack. [Add other builds]
+  - **I have no client income figures or testimonials yet.** Don't invent any.
+  - Build the trust strategy on my institutional credibility, build-in-public and members' own wins. Plan how the community will collect its first testimonials and case studies, and use `[placeholder]` wherever a future result would go.
 - **Free tools I'm giving away:** lead scraper, ICP scoring sheet, sellable AI workflow templates.
 - **Traffic source:** Instagram Reels (brand-new account), repurposed to TikTok, Shorts and LinkedIn. My bio says *"Free templates + AI community 👇"* and links to this Skool.
 

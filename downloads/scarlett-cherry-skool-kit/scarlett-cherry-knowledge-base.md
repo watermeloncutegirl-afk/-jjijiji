@@ -23,7 +23,8 @@ Labels used for platform claims:
 | Instagram audience | 25–34 working professionals, about 80% of the audience fit. They feel behind and overwhelmed and have "already tried six tools". They search to stop the overwhelm, not to learn. |
 | Community audience | Beginners and career-switchers who want their first paid AI gig, plus people previously burned by "make money with AI" offers. |
 | Positioning | Relief over education. Subtraction is the emotional promise. Proof equals distribution. Specificity is the moat: "AI automation for plumbers" beats "AI automation". |
-| Credibility assets | Exeter, UN, a book chapter, published abstracts. Use each as a standalone post, not just a bio line. *(Fill in specifics.)* |
+| Credibility assets | **AI Analyst at the University of Exeter**, building AI automations for the university. **Abstract on AI automation published by UN PRME** (Principles for Responsible Management Education) for a PRME event. Automations **featured in scientific book chapters**. Use each as a standalone post, not just a bio line. |
+| Proof status | Multiple shipped AI automation builds (e.g. the Vapi voice agent). **No client income figures or testimonials yet.** Don't use the "$10,000" line from the draft script. Lead with institutional credibility, build-in-public and member wins. |
 | Content pillars | Build-in-public (real n8n and voice-agent builds), teardowns, contrarian takes, credibility drops |
 | Free tools to give away | Lead scraper, ICP scoring sheet, free sellable AI workflows |
 | Comparable creators (from the funnel draft) | Ottley (255K-member free hub, application model), Platten (GHL affiliate commissions), Fazio / Cold Email Agency ($17–47 low-ticket comps) |
