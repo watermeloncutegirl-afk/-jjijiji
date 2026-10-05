@@ -76,7 +76,13 @@ Keep text out of the top ~220px and bottom ~450px. Keep cover text inside the ce
 
 - Switch to a **public Creator or Business** account (needed for Google indexing and Insights).
 - **Name field** (searchable, 30 chars): `YourName | AI Automation`
-- **Bio:** `AI automations that do real work for agencies & small businesses. Builds, not hype.`
+- **Bio (136/150 chars):**
+  ```
+  AI automation for people who aren't technical
+  Stop testing every tool. Learn the few that save you hours
+  Free templates + AI community 👇
+  ```
+  Link = your free Skool community. Pin 3 Reels: one tip, one build, one "what's inside the Skool".
 - Use original footage and original voice. No CapCut/TikTok watermarks (originality rules tightened Apr 2026).
 - Post Wed/Thu evening if you can. Timing matters little at 0 followers.
 - No "warm-up" ritual needed. Don't mass-follow or mass-like (spam blocks).
