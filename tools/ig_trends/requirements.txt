@@ -1,0 +1,4 @@
+requests>=2.31
+trendspy>=0.1.6     # maintained Google Trends client (primary)
+pytrends>=4.9.2     # archived Apr 2025; used as fallback for related queries
+pandas>=2.0         # pulled in by the trends clients
