@@ -55,6 +55,13 @@ general knowledge disagree, follow the file.
    - which modules are free, which unlock by level, and where a tasteful bridge to the workshop goes
 
    Keep it **subtractive**: a short list of tools, not a tour of every one.
+   **Build the build library from the 10 n8n workflows in section 11 of the knowledge base.** Use the funnel slot shown for each:
+   - free "Start Here" builds: expense tracker, email triage
+   - Path A gig builds: invoicing, Stripe sync, cart recovery
+   - Path B flagship builds: lead capture → qualify → CRM, lead scraping
+   - $3K-only: error monitoring and multi-workflow client bundles
+
+   For each workflow give the lesson title, the outcome, the tools, roughly how long it takes, which level unlocks it, and a matching Reel hook.
 6. **Gamification.** Rename levels 1–9 on-brand and say what each unlocks: courses, templates, a live hot-seat, a workshop discount, application priority. Explain how points are earned.
 7. **Onboarding sequence.** The welcome post (full copy), the pinned "Start Here" post, an auto-DM or welcome message, and a day 1/3/7 nudge plan that gets each member to post their first win.
 8. **Weekly rhythm.** A calendar of recurring events (e.g. weekly live Q&A, build-along, wins thread, office hours), with a name, length and goal for each. Size it so one person can run it.

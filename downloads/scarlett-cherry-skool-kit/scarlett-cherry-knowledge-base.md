@@ -235,3 +235,28 @@ Note: ▲1000%+ figures are artifacts of a low starting base. Claim them now, be
 8. Specific numbers beat clever lines.
 9. Film 2–3 hook versions and keep the best 3-second hold.
 10. Pin a comment with the resource or objection. Original footage only.
+
+## 11. Skool build library: n8n workflows to teach (researched 2026-10-05)
+
+These are the business workflows that rank highest across the 2026 n8n roundups (ScalaHosting, Vantaige, is4.ai, Appliplus, Buldrr, Intuz, Hostinger). They are mapped to Scarlett's funnel.
+
+| # | Workflow | What it does | Buyer | Funnel slot |
+|---|---|---|---|---|
+| 1 | Lead capture → AI qualify → CRM → instant follow-up | Form or ad lead → AI scores it → HubSpot / Airtable / GHL → email/SMS within minutes | Agencies, clinics, law firms, home services | **Path B flagship.** n8n version of the Vapi build. $3K program. |
+| 2 | AI email inbox triage | Categorise email, draft replies to common questions, route urgent ones | Any office team | **Free Skool** first build. Time Collapse Reels. |
+| 3 | Meeting notes → action items | Transcript → decisions and tasks → summary to attendees + PM tool | Consultancies, agencies | Free or workshop. Result First Reels. |
+| 4 | Invoice generation + payment chasing | Invoices from Stripe/sheet, overdue reminders | Freelancers, small services | **Path A** gig ("invoices in 30s") |
+| 5 | Stripe → accounting sync + weekly revenue report | Xero/QuickBooks sync, Monday summary to Slack/email | Ecommerce, SaaS, retail | **Path A** gig |
+| 6 | AI expense tracking via chat | Text a receipt → AI parses → Google Sheets | Sole traders, small teams | **Free Skool "Start Here"** quick win |
+| 7 | Lead scraping + enrichment | Maps/directories → contacts + email/company data → sheet | Agencies doing outreach | **Path B** toolkit. Matches the free lead-scraper giveaway. |
+| 8 | Abandoned-cart / order follow-ups | Orders → sheet/CRM, cart-recovery emails | Ecommerce | **Path A** gig, before-and-after revenue Reels |
+| 9 | Content repurposing pipeline | One piece → IG/LinkedIn/X captions from Notion/Airtable, scheduled | Creators, marketing teams | Build-in-public (Scarlett's own account). Workshop bonus. |
+| 10 | Support tickets → alerts + AI first reply | Classify, Slack urgent ones, AI drafts the response | SaaS, ecommerce support | Pairs with the voice agent as an "AI front desk" bundle |
+| + | Error alerting / monitoring | Pings when any workflow fails | Every client | Taught in the $3K program. Reliability is what justifies $3K over $300. |
+
+**Rules for client builds:** start from n8n's template library (10,000+ community workflows). Make sure each one does one clear task, and add error handling before production.
+
+**Content hooks:**
+- "For law firms, use this" (#3)
+- "Invoices in 30 seconds" (#4)
+- "OpenClaw vs n8n", a rising search (comparison)
