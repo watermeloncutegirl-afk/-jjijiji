@@ -1,0 +1,40 @@
+{
+    "name": "sales-skills",
+    "owner": {
+        "name": "Maya-Beth Finotti",
+        "email": "mbethfinotti@gmail.com"
+    },
+    "plugins": [
+        {
+            "name": "sales-skills",
+            "source": "./",
+            "description": "Skills for running a sales org and closing the deals in it — market sizing, ICP, quota and comp design, cold outbound, discovery, MEDDPICC, negotiation, deal strategy, and post-sale motion.",
+            "author": {
+                "name": "Maya-Beth Finotti",
+                "email": "mbethfinotti@gmail.com"
+            },
+            "homepage": "https://github.com/mbfinotti/sales-skills",
+            "repository": "https://github.com/mbfinotti/sales-skills",
+            "license": "MIT",
+            "keywords": [
+                "sales",
+                "b2b-sales",
+                "outbound",
+                "prospecting",
+                "cold-email",
+                "cold-call",
+                "discovery",
+                "meddpicc",
+                "negotiation",
+                "sales-automation",
+                "agent-skills",
+                "claude-code",
+                "claude-skills",
+                "codex",
+                "cursor",
+                "gemini-cli-extension",
+                "skills-sh"
+            ]
+        }
+    ]
+}
