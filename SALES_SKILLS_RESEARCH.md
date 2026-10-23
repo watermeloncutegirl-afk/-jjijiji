@@ -106,3 +106,19 @@ Read every third-party SKILL.md before installing it. Most of these repos have f
 1. A full live high-ticket cold-call skill covering gatekeepers, call branching and moving from pain to close.
 2. ROI-based discovery and pitch skills for AI automation agencies.
 3. A Hormozi-style sales manager skill combining CLOSER call scorecards, a role-play drill generator and a KPI dashboard.
+
+---
+
+## Update: gaps filled with custom skills
+
+The three gaps above are now covered by skills in [`.claude/skills/`](.claude/skills/README.md). They are built on the Vanguard Studios setter training and on the strongest repos above:
+
+| Gap | Skill(s) | Main sources |
+|---|---|---|
+| Full live high-ticket cold call: gatekeepers, call branching, moving from pain to close | `vanguard-gatekeeper`, `vanguard-cold-call-opener`, `vanguard-price-question`, `vanguard-setter-coach` | Vanguard modules 01–03, plus Kevin Dorsey, 30MPC/Jeb Blount, Chris Voss, Josh Braun, Sandler, Gong's 300M-call opener data |
+| ROI-based discovery and pitch skills for AI automation agencies | `ai-automation-agency-sales`, `web-design-agency-sales` | zubair-trabzada/ai-sales-team-claude, ai-proposal-claude, ai-marketing-claude, peterhadorn/webdesign-agency-skills, coldoutboundskills, czlonkowski/n8n-mcp |
+| A Hormozi-style sales manager skill combining CLOSER call scorecards, a role-play drill generator and a KPI dashboard | `sales-team-manager`, `hormozi-offer-builder` | prayceo/claude-skills-public, Wrenbjor/Hormozi-Marketing-Agent-Skills, alexsmedile/hormozi-skills, wondelai/skills, Predictable Revenue |
+
+### Corrections to the research above
+- The "60 minutes of daily role-play" figure for Hormozi comes from secondary sources and is unverified. The skills flag it as such.
+- Some repo star counts are low (under 50). The custom skills paraphrase ideas from those repos instead of depending on them, so there is nothing third-party to install.
