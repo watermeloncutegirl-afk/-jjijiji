@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Castle Beach Café | Falmouth's hidden beach café</title>
+<meta name="description" content="Castle Beach Café, Cliff Road, Falmouth. Barista coffee and seasonal food on the beach, open 10am to 4pm seven days a week. 4.9 stars from 330 Google reviews.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --sea:#0E4B5E;--sea-2:#15657D;--hut:#2FA7A8;--hut-2:#49C3C0;
+  --sand:#F6EBD8;--sand-2:#EADCC2;--coral:#E2572B;--paper:#FFFDF9;
+  --ink:#16262B;--muted:#55676D;--line:rgba(22,38,43,.14);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.65 'Karla',system-ui,sans-serif;-webkit-text-size-adjust:100%}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:'Fraunces',Georgia,serif;font-weight:900;line-height:1.05;margin:0;letter-spacing:-.015em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.demo-bar{background:#000;color:#fff;font:600 13px/1.45 'Karla',system-ui,sans-serif;text-align:center;padding:9px 14px}
+.skip{position:absolute;left:-9999px}.skip:focus{left:8px;top:8px;z-index:99;background:#fff;color:#000;padding:10px 14px;border-radius:8px}
+/* wave motif, taken from the chalkboard the café writes its menus on */
+.waves{display:block;width:100%;height:26px;color:var(--hut)}
+/* header */
+.bar{position:sticky;top:0;z-index:30;background:var(--sea);color:#fff;box-shadow:0 2px 14px rgba(14,75,94,.22)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:10px;padding-bottom:10px}
+.brand{text-decoration:none;display:grid;line-height:1.1;gap:3px}
+.brand b{font:700 1.38rem 'Fraunces',Georgia,serif;white-space:nowrap}
+.brand small{font:600 .7rem/1 'Karla',sans-serif;letter-spacing:.17em;text-transform:uppercase;color:#9fd8dd}
+.nav{display:none;gap:22px;font-weight:600;font-size:.98rem}
+.nav a{text-decoration:none;color:#d8ecef}.nav a:hover,.nav a:focus{color:#fff}
+@media (min-width:900px){.nav{display:flex}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 20px;border-radius:999px;font:700 1rem 'Karla',sans-serif;text-decoration:none;border:2px solid transparent;cursor:pointer;white-space:nowrap;transition:transform .14s ease,background-color .2s ease}
+.btn:active{transform:scale(.97)}
+.btn-coral{background:var(--coral);color:#fff}.btn-coral:hover{background:#c4451e}
+.btn-hut{background:var(--hut);color:#04353f}.btn-hut:hover{background:var(--hut-2)}
+.btn-line{border-color:rgba(255,255,255,.55);color:#fff}.btn-line:hover{background:rgba(255,255,255,.12)}
+.btn-sea{background:var(--sea);color:#fff}.btn-sea:hover{background:var(--sea-2)}
+@media (max-width:560px){.bar .btn{padding:0 15px;min-height:44px;font-size:.95rem}.brand small{display:none}.brand b{font-size:1.14rem}}
+/* hero */
+.hero{position:relative;color:#fff;background:#0b3d4d;overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.46}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,61,77,.72),rgba(11,61,77,.42) 45%,rgba(11,61,77,.86))}
+.hero .wrap{position:relative;z-index:2;padding-top:clamp(34px,7vw,74px);padding-bottom:clamp(34px,7vw,74px);max-width:940px}
+.status{display:inline-flex;align-items:center;gap:9px;font-weight:700;font-size:.95rem;background:rgba(4,30,38,.6);border:1px solid rgba(255,255,255,.26);padding:7px 15px;border-radius:999px}
+.status i{width:9px;height:9px;border-radius:50%;background:#c3ccce;flex:none}
+.status.open i{background:#46d08a;box-shadow:0 0 0 4px rgba(70,208,138,.26)}
+.hero h1{font-size:clamp(2.5rem,8.2vw,4.5rem);margin:16px 0 0;max-width:15ch}
+.hero h1 em{font-style:italic;font-weight:600;color:var(--hut-2)}
+.hero p.promise{font-size:clamp(1.05rem,2.4vw,1.3rem);color:#e8f4f5;max-width:40ch;margin:14px 0 0}
+.rate{display:inline-flex;align-items:center;gap:9px;margin-top:18px;font-weight:700;font-size:.98rem}
+.rate b{color:var(--sand)}
+.stars{color:#ffc94d;letter-spacing:2px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+/* strip */
+.strip{background:var(--hut);color:#04353f}
+.strip .wrap{display:grid;grid-template-columns:1fr 1fr;gap:14px 18px;padding-top:18px;padding-bottom:18px;font-weight:600;font-size:.96rem}
+.strip div{display:flex;gap:9px;align-items:flex-start}
+.strip svg{flex:none;margin-top:2px}
+@media (min-width:860px){.strip .wrap{grid-template-columns:repeat(4,1fr)}}
+section{padding:clamp(48px,7vw,86px) 0}
+.head{max-width:60ch;margin-bottom:26px}
+.head h2{font-size:clamp(2rem,5vw,3rem)}
+.head p{color:var(--muted);margin:12px 0 0;font-size:1.05rem}
+.eyebrow{font:700 .76rem 'Karla',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--coral);margin:0 0 8px}
+/* menu */
+.menu{background:var(--sand)}
+.grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media (min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+@media (min-width:980px){.grid.three{grid-template-columns:repeat(3,1fr)}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:22px;display:grid;gap:9px;align-content:start}
+.card h3{font-size:1.3rem}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+.price{justify-self:start;font:700 .74rem 'Karla',sans-serif;letter-spacing:.13em;text-transform:uppercase;background:var(--sand-2);color:#6b4a1f;border:1px dashed #b89457;border-radius:999px;padding:5px 11px}
+.tag{display:inline-block;font:700 .72rem 'Karla',sans-serif;letter-spacing:.09em;text-transform:uppercase;background:var(--hut);color:#04353f;border-radius:999px;padding:4px 10px;margin-right:5px}
+.note{background:var(--paper);border-left:5px solid var(--coral);border-radius:0 12px 12px 0;padding:16px 18px;margin-top:22px;font-size:.97rem;color:var(--muted)}
+.note b{color:var(--ink)}
+/* gallery */
+.gal{display:grid;gap:10px;grid-template-columns:repeat(2,1fr)}
+@media (min-width:720px){.gal{grid-template-columns:repeat(4,1fr)}}
+.gal button{padding:0;border:0;background:none;cursor:pointer;border-radius:12px;overflow:hidden;aspect-ratio:1;display:block}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.gal button:hover img,.gal button:focus-visible img{transform:scale(1.06)}
+dialog{border:0;padding:0;background:transparent;max-width:min(94vw,900px)}
+dialog::backdrop{background:rgba(6,30,38,.88)}
+dialog img{border-radius:12px;width:100%;max-height:82vh;object-fit:contain}
+dialog figcaption{color:#fff;text-align:center;padding:12px 4px 0;font-size:.95rem}
+dialog .x{position:absolute;top:-6px;right:0;transform:translateY(-100%);background:#fff;border:0;border-radius:999px;width:42px;height:42px;font-size:1.3rem;cursor:pointer}
+/* reviews placeholder */
+.reviews{background:var(--sea);color:#fff}
+.reviews .head h2{color:#fff}.reviews .head p{color:#bfdde3}
+.slot{border:2px dashed rgba(255,255,255,.4);border-radius:16px;padding:24px;display:grid;gap:10px;align-content:center;min-height:170px;color:#cfe6ea}
+.slot b{font:700 .76rem 'Karla',sans-serif;letter-spacing:.17em;text-transform:uppercase;color:var(--hut-2)}
+/* form */
+.hire{background:var(--sand)}
+.formwrap{display:grid;gap:26px}
+@media (min-width:900px){.formwrap{grid-template-columns:1fr 1fr;align-items:start;gap:40px}}
+form{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:22px;display:grid;gap:15px}
+label{display:grid;gap:6px;font-weight:600;font-size:.95rem}
+input,select,textarea{font:inherit;font-size:16px;padding:12px 14px;border:1.5px solid #c9d4d6;border-radius:10px;background:#fff;color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:3px solid rgba(47,167,168,.5);outline-offset:1px;border-color:var(--hut)}
+textarea{min-height:100px;resize:vertical}
+.two{display:grid;gap:15px}
+@media (min-width:520px){.two{grid-template-columns:1fr 1fr}}
+.hint{font-weight:400;color:var(--muted);font-size:.86rem}
+.done{display:none;background:#e7f6ef;border:1.5px solid #46d08a;border-radius:12px;padding:16px;font-size:.96rem}
+.done b{display:block;margin-bottom:5px}
+/* visit */
+.visit .wrap{display:grid;gap:30px}
+@media (min-width:900px){.visit .wrap{grid-template-columns:1fr 1fr;gap:44px;align-items:start}}
+table.hours{width:100%;border-collapse:collapse;margin-top:6px}
+table.hours td{padding:11px 4px;border-bottom:1px solid var(--line);font-size:1rem}
+table.hours td:last-child{text-align:right;font-weight:600}
+table.hours tr.today td{color:var(--coral);font-weight:700}
+table.hours tr.today td:first-child::after{content:" · today";font-weight:600;font-size:.82rem;letter-spacing:.04em}
+.map{width:100%;aspect-ratio:4/3;border:0;border-radius:16px;filter:saturate(.9)}
+.contact{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:10px;font-size:1rem}
+.contact a{font-weight:600;display:inline-block;padding:11px 0;min-height:44px}
+footer a[href^="tel"],footer a[href^="mailto"]{display:inline-block;padding:10px 0;min-height:44px}
+footer{background:var(--sea);color:#cfe6ea;padding:36px 0 96px;font-size:.94rem}
+footer .wrap{display:grid;gap:12px}
+footer a{color:#fff}
+footer .demo{color:#9fd8dd;font-weight:600}
+.social{display:flex;flex-wrap:wrap;gap:16px;font-weight:600}
+/* sticky call bar */
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;gap:9px;padding:9px 12px calc(9px + env(safe-area-inset-bottom));background:rgba(255,253,249,.97);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(14,75,94,.14)}
+.callbar .btn{flex:1;min-height:50px}
+@media (min-width:900px){.callbar{display:none}footer{padding-bottom:40px}}
+</style>
+</head>
+<body>
+<div class="demo-bar">Demo preview prepared for Castle Beach Café by [YOUR NAME] · Not the official website</div>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#main"><b>Castle Beach Café</b><small>Falmouth</small></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#menu">What we do</a><a href="#gallery">Photos</a><a href="#hire">Private hire</a><a href="#visit">Find us</a>
+    </nav>
+    <a class="btn btn-coral" href="tel:+441326617210">Call 01326 617210</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <img src="img/cafe-path.jpg" alt="The café looking along the path above Castle Beach, with the sea to the right" fetchpriority="high">
+    <div class="wrap">
+      <p class="status" id="status"><i></i><span>Checking opening hours</span></p>
+      <h1>Falmouth's <em>hidden</em> beach café</h1>
+      <p class="promise">Barista coffee and seasonal food. Famously crazy waves. Where the locals go.</p>
+      <p class="rate"><span class="stars" aria-hidden="true">★★★★★</span><span><b>4.9</b> from 330 Google reviews</span></p>
+      <div class="actions">
+        <a class="btn btn-coral" href="tel:+441326617210">Call 01326 617210</a>
+        <a class="btn btn-line" href="https://www.google.com/maps/dir/?api=1&amp;destination=Castle%20Beach%20Caf%C3%A9%2C%20Cliff%20Road%2C%20Falmouth%20TR11%204NZ" target="_blank" rel="noopener">Directions</a>
+      </div>
+    </div>
+  </section>
+
+  <svg class="waves" viewBox="0 0 1200 26" preserveAspectRatio="none" aria-hidden="true"><path d="M0 18 Q 50 2 100 18 T 200 18 T 300 18 T 400 18 T 500 18 T 600 18 T 700 18 T 800 18 T 900 18 T 1000 18 T 1100 18 T 1200 18" fill="none" stroke="currentColor" stroke-width="3"/></svg>
+
+  <div class="strip">
+    <div class="wrap">
+      <div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>Open 10am to 4pm, seven days a week</span></div>
+      <div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11z"/><circle cx="12" cy="10" r="2.4"/></svg><span>On the beach at Cliff Road, TR11 4NZ</span></div>
+      <div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4 20V9l8-5 8 5v11"/><path d="M9 20v-6h6v6"/></svg><span>Indoor cabin and outdoor seating</span></div>
+      <div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 20c5-3 8-7 8-11a5 5 0 0 0-8-3 5 5 0 0 0-8 3c0 4 3 8 8 11z"/></svg><span>Vegan and gluten free options</span></div>
+    </div>
+  </div>
+
+  <section class="menu" id="menu">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">What we do</p>
+        <h2>Toasties, cakes and proper coffee, a few steps from the water</h2>
+        <p>Everything below is on the café's own menu board or comes up again and again in their Google reviews. Prices are left blank for the owner to fill in.</p>
+      </div>
+      <div class="grid three">
+        <div class="card">
+          <h3>Toasties</h3>
+          <p>The thing people write reviews about. Served in a paper tray so you can take it down to the sand.</p>
+          <span class="price">Price to add</span>
+        </div>
+        <div class="card">
+          <h3>Roastie toasties</h3>
+          <p><span class="tag">Seasonal</span>A roast dinner in a toastie, on in the autumn and winter, including at Christmas.</p>
+          <span class="price">Price to add</span>
+        </div>
+        <div class="card">
+          <h3>Pasties</h3>
+          <p>Including a Bombay potato pasty for vegans.</p>
+          <span class="price">Price to add</span>
+        </div>
+        <div class="card">
+          <h3>Soup, salads and granola bowls</h3>
+          <p>Seasonal food made for eating outside, whatever the weather is doing.</p>
+          <span class="price">Price to add</span>
+        </div>
+        <div class="card">
+          <h3>Ice cream and sundaes</h3>
+          <p>Eaten on the sea wall. Flavours mentioned in reviews include cinnamon bun.</p>
+          <span class="price">Price to add</span>
+        </div>
+        <div class="card">
+          <h3>Cakes, brownies and cookies</h3>
+          <p>From the counter, with gluten free and vegan options.</p>
+          <span class="price">Price to add</span>
+        </div>
+      </div>
+
+      <div class="head" style="margin-top:48px">
+        <h2>From the drinks board</h2>
+      </div>
+      <div class="grid three">
+        <div class="card"><h3>Barista coffee</h3><p>With vegan plant milks available.</p><span class="price">Price to add</span></div>
+        <div class="card"><h3>Speciality hot drinks</h3><p>Hot chocolate and matcha among them, plus Pukka teas.</p><span class="price">Price to add</span></div>
+        <div class="card"><h3>Smoothies and milkshakes</h3><p>Smoothies in green, yellow, pink, purple and red.</p><span class="price">Price to add</span></div>
+      </div>
+      <p class="note"><b>For the owner:</b> this page carries no prices because none were published online on the day it was built. Send a current price list and they drop straight into the slots above.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">The café</p>
+        <h2>Photos</h2>
+        <p>Every photo here was posted by the café itself on Google Maps.</p>
+      </div>
+      <div class="gal" id="gal">
+        <button type="button" data-cap="The café from the path above Castle Beach"><img src="img/cafe-path.jpg" alt="The café from the path above Castle Beach" loading="lazy"></button>
+        <button type="button" data-cap="The indoor cabin, looking out to the sea"><img src="img/indoor-cabin.jpg" alt="Wooden tables and chairs inside the cabin, with sliding doors onto the deck and the sea beyond" loading="lazy"></button>
+        <button type="button" data-cap="The view from the deck"><img src="img/deck-view.jpg" alt="View from the café deck across the rocks to the sea" loading="lazy"></button>
+        <button type="button" data-cap="A toastie, eaten on the beach"><img src="img/toastie.jpg" alt="A toasted sandwich cut in half, held in a paper tray" loading="lazy"></button>
+        <button type="button" data-cap="The cake counter"><img src="img/cake-counter.jpg" alt="Cakes and traybakes in the glass counter" loading="lazy"></button>
+        <button type="button" data-cap="Cookies out of the oven"><img src="img/cookies.jpg" alt="A tray of freshly baked cookies" loading="lazy"></button>
+        <button type="button" data-cap="Soup, on a bench above the sand"><img src="img/soup.jpg" alt="A pot of soup topped with spring onion, on a blue bench" loading="lazy"></button>
+        <button type="button" data-cap="Ice cream on the sea wall"><img src="img/ice-cream.jpg" alt="Two tubs of ice cream with cookies on top, held up in front of the sea" loading="lazy"></button>
+        <button type="button" data-cap="A sundae, with the waves behind"><img src="img/sundae-waves.jpg" alt="An ice cream sundae held up in front of breaking waves" loading="lazy"></button>
+        <button type="button" data-cap="Sandwiches and cake for a picnic on the beach"><img src="img/picnic.jpg" alt="Sandwiches, crisps, drinks and cake on a blue picnic table above the beach" loading="lazy"></button>
+        <button type="button" data-cap="The beach huts on the way down"><img src="img/beach-huts.jpg" alt="A row of pastel beach huts along the path" loading="lazy"></button>
+        <button type="button" data-cap="Castle Beach"><img src="img/beach.jpg" alt="Castle Beach with the sun on the water and the headland beyond" loading="lazy"></button>
+        <button type="button" data-cap="A brownie, held up over the rocks"><img src="img/brownie.jpg" alt="A brownie in a paper tray held up in front of the sea" loading="lazy"></button>
+        <button type="button" data-cap="The counter, with the day's bakes"><img src="img/counter.jpg" alt="The café counter with bakes, drinks on the shelves and flowers on the side" loading="lazy"></button>
+        <button type="button" data-cap="A toastie with the sea behind it"><img src="img/toastie-sea.jpg" alt="A toasted sandwich held up with the beach and headland behind" loading="lazy"></button>
+        <button type="button" data-cap="A granola bowl and a coffee"><img src="img/bowl.jpg" alt="A bowl of granola and fruit next to a flat white on a wooden table" loading="lazy"></button>
+        <button type="button" data-cap="Open in the rain too"><img src="img/cafe-rain.jpg" alt="The café cabin and deck on a wet day, with the sea beyond" loading="lazy"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow" style="color:var(--hut-2)">4.9 from 330 Google reviews</p>
+        <h2>What people say</h2>
+        <p>This demo does not put words in anyone's mouth. On the live site these three slots hold real Google reviews, copied word for word with the reviewer's name, chosen from the café's own 5 star reviews.</p>
+      </div>
+      <div class="grid three">
+        <div class="slot"><b>Review slot 1</b><span>A five star Google review, quoted in full, with the reviewer's first name underneath.</span></div>
+        <div class="slot"><b>Review slot 2</b><span>A five star Google review, quoted in full, with the reviewer's first name underneath.</span></div>
+        <div class="slot"><b>Review slot 3</b><span>A five star Google review, quoted in full, with the reviewer's first name underneath.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hire" id="hire">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Private hire</p>
+        <h2>The café, to yourselves, after hours</h2>
+        <p>Reviews mention evening parties at the café, including a 95th birthday and Christmas get togethers. At the moment every one of those starts with a phone call. This form means an enquiry can land while the café is shut.</p>
+      </div>
+      <div class="formwrap">
+        <form id="hire-form" novalidate>
+          <label>Your name
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <div class="two">
+            <label>Phone
+              <input type="tel" name="phone" autocomplete="tel" required>
+            </label>
+            <label>Email
+              <input type="email" name="email" autocomplete="email" required>
+            </label>
+          </div>
+          <div class="two">
+            <label>Date you have in mind
+              <input type="date" name="date" id="hire-date" required>
+            </label>
+            <label>Roughly how many people
+              <input type="number" name="people" min="1" max="200" required>
+            </label>
+          </div>
+          <label>What is the occasion
+            <select name="occasion" required>
+              <option value="">Please choose</option>
+              <option>Birthday</option>
+              <option>Christmas get together</option>
+              <option>Wake or celebration of a life</option>
+              <option>Work or team evening</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Anything else we should know
+            <span class="hint">Food you were hoping for, timings, anyone with allergies.</span>
+            <textarea name="message"></textarea>
+          </label>
+          <button class="btn btn-coral" type="submit">Send enquiry</button>
+          <div class="done" id="hire-done" role="status">
+            <b>This is a demo, so nothing was sent.</b>
+            On the live site your enquiry goes straight to Castle Beach Café by email, and you get a copy of what you sent. The café would reply with dates, numbers and what they can do on food.
+          </div>
+        </form>
+        <div>
+          <h3 style="font-size:1.4rem;margin-bottom:10px">Why this, and not a booking system</h3>
+          <p style="color:var(--muted);margin-top:0">A beach café does not need a seat booking tool for a coffee and a toastie. Daytime trade walks in. The thing worth catching online is the evening booking, where someone is deciding between venues and wants an answer in writing.</p>
+          <img src="img/indoor-cabin.jpg" alt="Inside the cabin, with tables set and the sea through the glass doors" style="border-radius:16px;margin-top:16px" loading="lazy">
+          <p class="note" style="margin-top:16px"><b>For the owner:</b> capacity, minimum numbers, which evenings you take and what food you offer are all still to confirm, so none of them appear on this page.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <div>
+        <div class="head">
+          <p class="eyebrow">Find us</p>
+          <h2>Cliff Road, Falmouth</h2>
+          <p>Down on the beach itself, past the beach huts.</p>
+        </div>
+        <table class="hours" id="hours" aria-label="Opening hours">
+          <tbody>
+            <tr><td>Monday</td><td>10am to 4pm</td></tr>
+            <tr><td>Tuesday</td><td>10am to 4pm</td></tr>
+            <tr><td>Wednesday</td><td>10am to 4pm</td></tr>
+            <tr><td>Thursday</td><td>10am to 4pm</td></tr>
+            <tr><td>Friday</td><td>10am to 4pm</td></tr>
+            <tr><td>Saturday</td><td>10am to 4pm</td></tr>
+            <tr><td>Sunday</td><td>10am to 4pm</td></tr>
+          </tbody>
+        </table>
+        <ul class="contact">
+          <li>Castle Beach Café, Cliff Road, Falmouth TR11 4NZ</li>
+          <li><a href="tel:+441326617210">01326 617210</a></li>
+          <li><a href="mailto:castlebeachfalmouth@gmail.com">castlebeachfalmouth@gmail.com</a></li>
+        </ul>
+        <div class="actions" style="margin-top:20px">
+          <a class="btn btn-sea" href="https://www.google.com/maps/dir/?api=1&amp;destination=Castle%20Beach%20Caf%C3%A9%2C%20Cliff%20Road%2C%20Falmouth%20TR11%204NZ" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn btn-hut" href="tel:+441326617210">Call the café</a>
+        </div>
+      </div>
+      <iframe class="map" title="Map showing Castle Beach Café, Cliff Road, Falmouth" loading="lazy" src="https://www.google.com/maps?q=Castle%20Beach%20Caf%C3%A9%2C%20Cliff%20Road%2C%20Falmouth%20TR11%204NZ&amp;output=embed"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Castle Beach Café, Cliff Road, Falmouth TR11 4NZ · <a href="tel:+441326617210">01326 617210</a></span>
+    <div class="social">
+      <a href="https://www.facebook.com/castlebeachcafe" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.instagram.com/castlebeachfalmouth" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:castlebeachfalmouth@gmail.com">Email</a>
+    </div>
+    <span class="demo">Demo website prepared for Castle Beach Café by [YOUR NAME]. Not the official site.</span>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn-coral" href="tel:+441326617210">Call</a>
+  <a class="btn btn-sea" href="https://www.google.com/maps/dir/?api=1&amp;destination=Castle%20Beach%20Caf%C3%A9%2C%20Cliff%20Road%2C%20Falmouth%20TR11%204NZ" target="_blank" rel="noopener">Directions</a>
+</div>
+
+<dialog id="lb">
+  <form method="dialog"><button class="x" aria-label="Close">✕</button></form>
+  <figure style="margin:0"><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure>
+</dialog>
+
+<script>
+// Opening hours, Europe/London. Minutes from midnight, Monday first, null = closed.
+var HOURS=[[600,960],[600,960],[600,960],[600,960],[600,960],[600,960],[600,960]];
+var fmt=function(m){var h=Math.floor(m/60),mm=m%60,ap=h>=12?'pm':'am',h12=((h+11)%12)+1;return h12+(mm?':'+String(mm).padStart(2,'0'):'')+ap};
+var p=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date()).map(function(x){return [x.type,x.value]}));
+var day=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].indexOf(p.weekday),now=(+p.hour%24)*60+(+p.minute),h=HOURS[day];
+var el=document.getElementById('status'),t=el.querySelector('span');
+if(h&&now>=h[0]&&now<h[1]){el.classList.add('open');t.textContent='Open now until '+fmt(h[1]);}
+else{var d=day,n=0;do{d=(d+1)%7;n++;}while(!HOURS[d]&&n<7);
+  t.textContent=(h&&now<h[0])?'Opens today at '+fmt(h[0]):'Closed · opens '+(n===1?'tomorrow':['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'][d])+' at '+fmt(HOURS[d][0]);}
+var rows=document.querySelectorAll('#hours tbody tr');if(rows[day])rows[day].classList.add('today');
+
+// Gallery lightbox
+var lb=document.getElementById('lb'),lbImg=document.getElementById('lb-img'),lbCap=document.getElementById('lb-cap');
+document.getElementById('gal').addEventListener('click',function(e){
+  var b=e.target.closest('button');if(!b)return;
+  var img=b.querySelector('img');
+  lbImg.src=img.src;lbImg.alt=img.alt;lbCap.textContent=b.dataset.cap;
+  if(lb.showModal)lb.showModal();
+});
+
+// Demo form: validates, then explains that nothing was sent
+var hd=document.getElementById('hire-date');
+var tomorrow=new Date(Date.now()+864e5);hd.min=tomorrow.toISOString().slice(0,10);
+var f=document.getElementById('hire-form');
+f.addEventListener('submit',function(e){
+  e.preventDefault();
+  if(!f.reportValidity())return;
+  document.getElementById('hire-done').style.display='block';
+  f.querySelector('button[type=submit]').disabled=true;
+});
+</script>
+</body>
+</html>

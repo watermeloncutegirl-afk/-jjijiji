@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Good Vibes Cafe | Brunch, lunch and speciality coffee in Falmouth</title>
+<meta name="description" content="Good Vibes Cafe, 28 Killigrew Street on The Moor, Falmouth. Brunch, lunch, speciality coffee and fine tea. The full menu with prices, plus a vegan and veggie filter. 4.7 stars from 405 Google reviews.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#2E4328;--green-2:#3C5834;--green-3:#1E2C1A;
+  --cream:#F4F1E4;--cream-2:#E8E3CF;--paper:#FCFBF5;
+  --sun:#E8B33C;--ink:#1B2118;--muted:#5D6A57;--line:rgba(27,33,24,.14);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.65 'Jost',system-ui,sans-serif;-webkit-text-size-adjust:100%}
+img{display:block;max-width:100%}
+a{color:inherit}
+h1,h2,h3{font-family:'Archivo Black',Impact,sans-serif;font-weight:400;line-height:1;margin:0;text-transform:uppercase;letter-spacing:-.02em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+.demo-bar{background:#000;color:#fff;font:500 13px/1.45 'Jost',system-ui,sans-serif;text-align:center;padding:9px 14px}
+.skip{position:absolute;left:-9999px}.skip:focus{left:8px;top:8px;z-index:99;background:#fff;color:#000;padding:10px 14px;border-radius:6px}
+/* header */
+.bar{position:sticky;top:0;z-index:30;background:var(--green);color:var(--cream)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:11px;padding-bottom:11px}
+.brand{text-decoration:none;display:flex;align-items:center;gap:11px}
+.brand b{font:400 1.2rem 'Archivo Black',sans-serif;text-transform:uppercase;letter-spacing:-.01em;white-space:nowrap;line-height:1}
+.sunmark{flex:none;color:var(--sun)}
+.nav{display:none;gap:22px;font-weight:500;font-size:1rem}
+.nav a{text-decoration:none;color:#d9d6c3}.nav a:hover,.nav a:focus{color:#fff}
+@media (min-width:920px){.nav{display:flex}}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 20px;border-radius:4px;font:500 1rem 'Jost',sans-serif;letter-spacing:.02em;text-decoration:none;border:2px solid transparent;cursor:pointer;white-space:nowrap;transition:transform .14s ease,background-color .2s ease}
+.btn:active{transform:scale(.97)}
+.btn-sun{background:var(--sun);color:#2a2008}.btn-sun:hover{background:#d6a12c}
+.btn-green{background:var(--green);color:var(--cream)}.btn-green:hover{background:var(--green-2)}
+.btn-line{border-color:rgba(244,241,228,.55);color:var(--cream)}.btn-line:hover{background:rgba(244,241,228,.12)}
+.btn-dark{background:var(--green-3);color:var(--cream)}
+@media (max-width:560px){.bar .btn{padding:0 14px;min-height:44px;font-size:.95rem}.brand b{font-size:1.05rem}}
+/* hero */
+.hero{background:var(--green);color:var(--cream);overflow:hidden}
+.hero .wrap{display:grid;gap:26px;padding-top:clamp(30px,5vw,56px);padding-bottom:clamp(30px,5vw,56px)}
+@media (min-width:900px){.hero .wrap{grid-template-columns:1.05fr .95fr;align-items:center;gap:46px}}
+.status{display:inline-flex;align-items:center;gap:9px;font-weight:500;font-size:.95rem;background:rgba(0,0,0,.25);border:1px solid rgba(244,241,228,.28);padding:7px 15px;border-radius:999px}
+.status i{width:9px;height:9px;border-radius:50%;background:#aeb3aa;flex:none}
+.status.open i{background:#6fd38c;box-shadow:0 0 0 4px rgba(111,211,140,.24)}
+.hero h1{font-size:clamp(2.4rem,8vw,4.2rem);margin:16px 0 0}
+.hero h1 span{color:var(--sun)}
+.hero p.promise{font-size:clamp(1.02rem,2.2vw,1.22rem);color:#ddd9c6;max-width:42ch;margin:16px 0 0;font-weight:300}
+.rate{display:inline-flex;align-items:center;gap:9px;margin-top:18px;font-weight:500;font-size:.98rem}
+.stars{color:var(--sun);letter-spacing:2px}
+.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.hero figure{margin:0;border-radius:6px;overflow:hidden}
+.hero figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+/* strip */
+.strip{background:var(--sun);color:#2a2008}
+.strip .wrap{display:grid;grid-template-columns:1fr;gap:10px 20px;padding-top:16px;padding-bottom:16px;font-weight:500;font-size:.96rem}
+@media (min-width:700px){.strip .wrap{grid-template-columns:repeat(3,1fr)}}
+.strip div{display:flex;gap:9px;align-items:flex-start}
+.strip svg{flex:none;margin-top:3px}
+section{padding:clamp(46px,7vw,82px) 0}
+.head{max-width:62ch;margin-bottom:26px}
+.head h2{font-size:clamp(1.9rem,5vw,2.9rem)}
+.head p{color:var(--muted);margin:14px 0 0;font-size:1.05rem;font-weight:300}
+.eyebrow{font:500 .78rem 'Jost',sans-serif;letter-spacing:.2em;text-transform:uppercase;color:var(--green-2);margin:0 0 10px}
+/* menu */
+.menu{background:var(--cream)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 8px;padding:0;border:0}
+.filters legend{position:absolute;left:-9999px}
+.filters button{font:500 .95rem 'Jost',sans-serif;min-height:44px;padding:0 17px;border-radius:999px;border:1.5px solid var(--green);background:transparent;color:var(--green);cursor:pointer;transition:background-color .18s ease,color .18s ease}
+.filters button[aria-pressed=true]{background:var(--green);color:var(--cream)}
+.count{font-size:.92rem;color:var(--muted);margin:14px 0 22px}
+.mcols{display:grid;gap:34px}
+@media (min-width:860px){.mcols{grid-template-columns:1fr 1fr;gap:34px 46px}}
+.mgroup h3{font-size:1.45rem;padding-bottom:9px;border-bottom:3px solid var(--green);margin-bottom:4px}
+.mgroup.hidden,.item.hidden{display:none}
+.item{padding:15px 0;border-bottom:1px solid var(--line)}
+.item .top{display:flex;gap:14px;align-items:baseline;justify-content:space-between}
+.item h4{margin:0;font:500 1.08rem 'Jost',sans-serif;letter-spacing:.01em}
+.item .cost{font-weight:600;white-space:nowrap}
+.item p{margin:5px 0 0;color:var(--muted);font-size:.95rem;font-weight:300}
+.item .add{margin:6px 0 0;color:var(--muted);font-size:.88rem;font-style:italic;font-weight:300}
+.d{display:inline-block;font:500 .68rem 'Jost',sans-serif;letter-spacing:.1em;border-radius:3px;padding:3px 7px;margin-left:7px;vertical-align:middle;white-space:nowrap}
+.d-vg{background:var(--green);color:var(--cream)}
+.d-v{background:#cfe0c4;color:#24391c}
+.d-ngi{background:var(--cream-2);color:#4a4327}
+.note{background:var(--paper);border-left:5px solid var(--sun);border-radius:0 8px 8px 0;padding:16px 18px;margin-top:26px;font-size:.96rem;color:var(--muted);font-weight:300}
+.note b{color:var(--ink);font-weight:600}
+/* gallery */
+.gal{display:grid;gap:10px;grid-template-columns:repeat(2,1fr)}
+@media (min-width:720px){.gal{grid-template-columns:repeat(4,1fr)}}
+.gal button{padding:0;border:0;background:none;cursor:pointer;border-radius:6px;overflow:hidden;aspect-ratio:1;display:block}
+.gal img{width:100%;height:100%;object-fit:cover;transition:transform .35s ease}
+.gal button:hover img,.gal button:focus-visible img{transform:scale(1.06)}
+dialog{border:0;padding:0;background:transparent;max-width:min(94vw,900px)}
+dialog::backdrop{background:rgba(20,28,18,.9)}
+dialog img{border-radius:6px;width:100%;max-height:82vh;object-fit:contain}
+dialog figcaption{color:#fff;text-align:center;padding:12px 4px 0;font-size:.95rem;font-weight:300}
+dialog .x{position:absolute;top:-6px;right:0;transform:translateY(-100%);background:#fff;border:0;border-radius:999px;width:42px;height:42px;font-size:1.3rem;cursor:pointer}
+/* reviews placeholder */
+.reviews{background:var(--green);color:var(--cream)}
+.reviews .head h2{color:var(--cream)}.reviews .head p{color:#c9c6b4}
+.slots{display:grid;gap:14px}
+@media (min-width:860px){.slots{grid-template-columns:repeat(3,1fr)}}
+.slot{border:2px dashed rgba(244,241,228,.4);border-radius:8px;padding:24px;display:grid;gap:10px;align-content:center;min-height:168px;color:#c9c6b4;font-weight:300}
+.slot b{font:500 .76rem 'Jost',sans-serif;letter-spacing:.17em;text-transform:uppercase;color:var(--sun)}
+/* visit */
+.visit .wrap{display:grid;gap:30px}
+@media (min-width:900px){.visit .wrap{grid-template-columns:1fr 1fr;gap:44px;align-items:start}}
+table.hours{width:100%;border-collapse:collapse;margin-top:6px}
+table.hours td{padding:11px 4px;border-bottom:1px solid var(--line);font-size:1rem}
+table.hours td:last-child{text-align:right;font-weight:500}
+table.hours tr.today td{color:var(--green);font-weight:600}
+table.hours tr.today td:first-child::after{content:" · today";font-size:.82rem}
+.map{width:100%;aspect-ratio:4/3;border:0;border-radius:6px;filter:saturate(.92)}
+.contact{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:10px;font-size:1rem}
+.contact a{font-weight:500;display:inline-block;padding:11px 0;min-height:44px}
+footer a[href^="tel"],footer a[href^="mailto"]{display:inline-block;padding:10px 0;min-height:44px}
+footer{background:var(--green-3);color:#c9c6b4;padding:36px 0 96px;font-size:.94rem;font-weight:300}
+footer .wrap{display:grid;gap:12px}
+footer a{color:var(--cream)}
+footer .demo{color:var(--sun);font-weight:500}
+.social{display:flex;flex-wrap:wrap;gap:16px;font-weight:500}
+.callbar{position:fixed;left:0;right:0;bottom:0;z-index:40;display:flex;gap:9px;padding:9px 12px calc(9px + env(safe-area-inset-bottom));background:rgba(252,251,245,.97);border-top:1px solid var(--line);box-shadow:0 -6px 20px rgba(27,33,24,.15)}
+.callbar .btn{flex:1;min-height:50px}
+@media (min-width:900px){.callbar{display:none}footer{padding-bottom:40px}}
+</style>
+</head>
+<body>
+<div class="demo-bar">Demo preview prepared for Good Vibes Cafe by [YOUR NAME] · Not the official website</div>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <div class="wrap">
+    <a class="brand" href="#main">
+      <svg class="sunmark" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 1.6l1.9 4.3 3.4-3.2-.8 4.6 4.6-.8-3.2 3.4 4.3 1.9-4.3 1.9 3.2 3.4-4.6-.8.8 4.6-3.4-3.2-1.9 4.3-1.9-4.3-3.4 3.2.8-4.6-4.6.8 3.2-3.4L1.6 12l4.3-1.9-3.2-3.4 4.6.8-.8-4.6 3.4 3.2z"/></svg>
+      <b>Good Vibes Cafe</b>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="#menu">Menu</a><a href="#gallery">Photos</a><a href="#visit">Find us</a>
+    </nav>
+    <a class="btn btn-sun" href="#menu">See the menu</a>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="status" id="status"><i></i><span>Checking opening hours</span></p>
+        <h1>Brunch, lunch and <span>speciality coffee</span> on The Moor</h1>
+        <p class="promise">Good Vibes Cafe is here to serve brunch, lunch, speciality coffee and fine tea in a laid back atmosphere.</p>
+        <p class="rate"><span class="stars" aria-hidden="true">★★★★★</span><span><b>4.7</b> from 405 Google reviews</span></p>
+        <div class="actions">
+          <a class="btn btn-sun" href="#menu">See the menu</a>
+          <a class="btn btn-line" href="tel:+441326211870">Call 01326 211870</a>
+        </div>
+      </div>
+      <figure><img src="img/shopfront.jpg" alt="The green shopfront of Good Vibes Cafe on Killigrew Street, with tables outside" fetchpriority="high"></figure>
+    </div>
+  </section>
+
+  <div class="strip">
+    <div class="wrap">
+      <div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M12 3v18M5 7h14M7 11h10"/></svg><span>Vegan and veggie dishes right through the food menu</span></div>
+      <div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M10 17l-4-4 4-4M14 7l4 4-4 4"/><circle cx="12" cy="12" r="9.5"/></svg><span>Dine in, takeaway and delivery</span></div>
+      <div><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M4.5 19.5c3-5 6-5 9 0M8 12a4 4 0 1 1 8 0"/><path d="M12 3v2"/></svg><span>Seating outside under the trees, dogs welcome</span></div>
+    </div>
+  </div>
+
+  <section class="menu" id="menu">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">The full menu</p>
+        <h2>Everything they serve, with prices</h2>
+        <p>Right now this menu only exists on a card in the café and in a photo on Google. Here it is as a page, so somebody deciding where to have brunch can read it before they walk up The Moor.</p>
+      </div>
+
+      <fieldset class="filters" id="filters">
+        <legend>Filter the menu</legend>
+        <button type="button" data-diet="all" aria-pressed="true">Everything</button>
+        <button type="button" data-diet="v" aria-pressed="false">Veggie</button>
+        <button type="button" data-diet="vg" aria-pressed="false">Vegan</button>
+      </fieldset>
+      <p class="count" id="count" role="status">Showing the whole menu.</p>
+
+      <div class="mcols" id="menulist">
+        <div class="mgroup">
+          <h3>Breakfast</h3>
+          <div class="item" data-diet="meat">
+            <div class="top"><h4>The Good Vibes Breakfast</h4><span class="cost">£12.50</span></div>
+            <p>Smoked streaky bacon, pork sausages, basil-roasted tomato, thyme-roasted mushroom, homebrew beans, sourdough, poached eggs.</p>
+            <p class="add">+ Homemade hash browns £2.50</p>
+          </div>
+          <div class="item" data-diet="v">
+            <div class="top"><h4>Avo on toast <span class="d d-v">V</span></h4><span class="cost">£11</span></div>
+            <p>Sourdough, smashed avocado, toasted seeds, garlic-marinated feta, peashoots.</p>
+            <p class="add">+ Poached eggs £1.50 · + Smoked streaky bacon £3</p>
+          </div>
+          <div class="item" data-diet="flex-v">
+            <div class="top"><h4>The GV Hash <span class="d d-ngi">NGI</span></h4><span class="cost">£12</span></div>
+            <p>Smoked streaky bacon, sliced avocado, scrambled eggs, homemade hash browns, rocket and basil oil.</p>
+            <p class="add">Change up the bacon for mushrooms to make it veggie</p>
+          </div>
+          <div class="item" data-diet="v">
+            <div class="top"><h4>Eggs on toast <span class="d d-v">V</span></h4><span class="cost">£6.50</span></div>
+            <p>Scrambled, fried or poached eggs, sourdough, peashoots and basil oil.</p>
+            <p class="add">+ Smoked streaky bacon £3 · + Avocado £2.50</p>
+          </div>
+          <div class="item" data-diet="vg">
+            <div class="top"><h4>The Vegan Breakfast <span class="d d-vg">VG</span></h4><span class="cost">£10.50</span></div>
+            <p>Sliced avocado, paprika hummus, basil-roasted tomato, thyme-roasted mushroom, homebrew beans, sourdough.</p>
+            <p class="add">+ Poached eggs £1.50 · + Homemade hash browns £2.50</p>
+          </div>
+          <div class="item" data-diet="vg">
+            <div class="top"><h4>Beans on toast <span class="d d-vg">VG</span></h4><span class="cost">£8.50</span></div>
+            <p>Sourdough, homebrew beans, sliced avocado, chilli flakes, peashoots and basil oil.</p>
+            <p class="add">+ Poached eggs £1.50 · + Marinated feta £2.50</p>
+          </div>
+        </div>
+
+        <div class="mgroup">
+          <h3>Sandwiches and bowls</h3>
+          <div class="item" data-diet="meat">
+            <div class="top"><h4>Breakfast sanger, smoked streaky bacon</h4><span class="cost">£6.50</span></div>
+            <p class="add">+ A fried egg £1 · + Avocado £2.50</p>
+          </div>
+          <div class="item" data-diet="meat">
+            <div class="top"><h4>Breakfast sanger, pork sausage</h4><span class="cost">£6.50</span></div>
+            <p class="add">+ A fried egg £1 · + Avocado £2.50</p>
+          </div>
+          <div class="item" data-diet="vg">
+            <div class="top"><h4>The Mushroom Sandwich <span class="d d-vg">VG</span></h4><span class="cost">£7.50</span></div>
+            <p>Thyme-roasted mushroom, paprika hummus, rocket.</p>
+            <p class="add">+ A fried egg for £1</p>
+          </div>
+          <div class="item" data-diet="flex-vg">
+            <div class="top"><h4>The Signature Sandwich</h4><span class="cost">£10</span></div>
+            <p>Paprika hummus, smashed avocado, sliced tomatoes, pickled red onions, smoked streaky bacon, leaves.</p>
+            <p class="add">Change up the bacon for pea fritters to make it vegan</p>
+          </div>
+          <div class="item" data-diet="vg">
+            <div class="top"><h4>Soup of the day <span class="d d-vg">VG</span></h4><span class="cost">£7</span></div>
+            <p>Served with a warm ciabatta roll. See the blackboard for today's soup.</p>
+          </div>
+          <div class="item" data-diet="vg">
+            <div class="top"><h4>Dahl <span class="d d-vg">VG</span></h4><span class="cost">£11</span></div>
+            <p>Peanut butter and spinach dahl, spiced pea fritters, garlic and ginger oil, peashoots.</p>
+            <p class="add">+ A fried egg for £1</p>
+          </div>
+          <div class="item" data-diet="all">
+            <div class="top"><h4>A cup of soup with any sandwich</h4><span class="cost">+ £2.50</span></div>
+          </div>
+        </div>
+
+        <div class="mgroup">
+          <h3>Coffee</h3>
+          <div class="item" data-diet="all"><div class="top"><h4>Espresso</h4><span class="cost">£2.40</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Americano</h4><span class="cost">£3.10</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Macchiato</h4><span class="cost">£2.70</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Piccolo</h4><span class="cost">£2.70</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Cortado</h4><span class="cost">£2.80</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Flat white</h4><span class="cost">£3.20</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Latte</h4><span class="cost">£3.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Cappuccino</h4><span class="cost">£3.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Mocha</h4><span class="cost">£3.70</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Iced latte</h4><span class="cost">£3.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Espresso frizzante</h4><span class="cost">£3.50</span></div>
+            <p class="add">+ Syrups 40p · + Oat or coconut milk 30p</p></div>
+        </div>
+
+        <div class="mgroup">
+          <h3>Other hot drinks</h3>
+          <div class="item" data-diet="all"><div class="top"><h4>Hot chocolate</h4><span class="cost">£3.40</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Chai latte</h4><span class="cost">£3.40</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Chocolate chai</h4><span class="cost">£3.60</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Dirty chai</h4><span class="cost">£3.60</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Matcha latte</h4><span class="cost">£3.60</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Turmeric latte</h4><span class="cost">£3.60</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Babyccino</h4><span class="cost">£0.75</span></div>
+            <p class="add">+ Syrups 40p · + Oat or coconut milk 30p</p></div>
+        </div>
+
+        <div class="mgroup">
+          <h3>Loose leaf tea</h3>
+          <div class="item" data-diet="all"><div class="top"><h4>English breakfast</h4><span class="cost">£2.65</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Decaf English breakfast</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Earl Grey</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Assam</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Darjeeling</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Green</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Triple mint</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Rooibos</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Chamomile</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Red berry and hibiscus</h4><span class="cost">£2.75</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Lemongrass and ginger</h4><span class="cost">£2.75</span></div></div>
+        </div>
+
+        <div class="mgroup">
+          <h3>Cold drinks</h3>
+          <div class="item" data-diet="all"><div class="top"><h4>Frobishers orange juice</h4><span class="cost">£3.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Frobishers apple juice</h4><span class="cost">£3.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>San Pel lemon</h4><span class="cost">£3.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>San Pel grapefruit</h4><span class="cost">£3.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Jollies sparkling water</h4><span class="cost">£2.00</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Smoothie, banana, berry and coconut</h4><span class="cost">£4.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Smoothie, mango, orange, carrot and ginger</h4><span class="cost">£4.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Smoothie, chocolate, banana and peanut butter</h4><span class="cost">£4.50</span></div></div>
+          <div class="item" data-diet="all"><div class="top"><h4>Smoothie, apple, spinach, pear and avocado</h4><span class="cost">£4.50</span></div></div>
+        </div>
+      </div>
+
+      <p class="note">All of our food may contain one or more of the 14 main allergens. Please let us know if you have an allergy.</p>
+      <p class="note"><b>For the owner:</b> this menu was typed up from the café's own menu photos on Google, which are not dated. Confirm the prices are current and this page is right in one pass. The menus give food 8am to 3pm Monday to Saturday and 9am to 2:30pm Sunday, drinks to 3:30pm and 3pm, while Google shows the café open 7:30am to 4pm. Both are shown on this page and both need checking.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">The café</p>
+        <h2>Photos</h2>
+        <p>Every photo here was posted by the café itself on Google Maps.</p>
+      </div>
+      <div class="gal" id="gal">
+        <button type="button" data-cap="The shopfront on Killigrew Street"><img src="img/shopfront.jpg" alt="The green shopfront with the Good Vibes Cafe sign and tables outside" loading="lazy"></button>
+        <button type="button" data-cap="Inside, with the tea and coffee board"><img src="img/interior.jpg" alt="Tables and chairs inside the café in front of a blackboard listing teas and coffees" loading="lazy"></button>
+        <button type="button" data-cap="The room, end to end"><img src="img/panorama.jpg" alt="Wide view of the café interior with wooden floors and tables" loading="lazy"></button>
+        <button type="button" data-cap="The vegan breakfast"><img src="img/vegan-breakfast.jpg" alt="A plate with avocado, hummus, roasted tomato, mushroom, beans and sourdough" loading="lazy"></button>
+        <button type="button" data-cap="Eggs, from the brunch menu"><img src="img/eggs-dish.jpg" alt="A bowl of eggs with chilli and herbs" loading="lazy"></button>
+        <button type="button" data-cap="A sandwich and a cup of soup"><img src="img/soup-sandwich.jpg" alt="A filled baguette on a plate next to a small bowl of soup" loading="lazy"></button>
+        <button type="button" data-cap="Traybakes on the counter"><img src="img/bakes.jpg" alt="Rows of traybakes and cakes on wooden boards" loading="lazy"></button>
+        <button type="button" data-cap="A cappuccino"><img src="img/cappuccino.jpg" alt="A cappuccino in a blue cup with latte art" loading="lazy"></button>
+        <button type="button" data-cap="An iced latte, outside"><img src="img/iced-latte.jpg" alt="An iced latte in a glass on a teal saucer" loading="lazy"></button>
+        <button type="button" data-cap="Coffee against the café wall"><img src="img/latte-wall.jpg" alt="A large latte in a blue cup on a stone windowsill" loading="lazy"></button>
+        <button type="button" data-cap="The food menu, as it is in the café"><img src="img/menu-food.jpg" alt="The café's printed food menu" loading="lazy"></button>
+        <button type="button" data-cap="The drinks menu, as it is in the café"><img src="img/menu-drinks.jpg" alt="The café's printed drinks menu" loading="lazy"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow" style="color:var(--sun)">4.7 from 405 Google reviews</p>
+        <h2>What people say</h2>
+        <p>This demo does not put words in anyone's mouth. On the live site these three slots hold real Google reviews, copied word for word with the reviewer's name, chosen from the café's own 4 and 5 star reviews.</p>
+      </div>
+      <div class="slots">
+        <div class="slot"><b>Review slot 1</b><span>A real Google review, quoted in full, with the reviewer's name underneath.</span></div>
+        <div class="slot"><b>Review slot 2</b><span>A real Google review, quoted in full, with the reviewer's name underneath.</span></div>
+        <div class="slot"><b>Review slot 3</b><span>A real Google review, quoted in full, with the reviewer's name underneath.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <div>
+        <div class="head">
+          <p class="eyebrow">Find us</p>
+          <h2>28 Killigrew Street</h2>
+          <p>On The Moor, in the middle of Falmouth.</p>
+        </div>
+        <table class="hours" id="hours" aria-label="Opening hours">
+          <tbody>
+            <tr><td>Monday</td><td>7:30am to 4pm</td></tr>
+            <tr><td>Tuesday</td><td>7:30am to 4pm</td></tr>
+            <tr><td>Wednesday</td><td>7:30am to 4pm</td></tr>
+            <tr><td>Thursday</td><td>7:30am to 4pm</td></tr>
+            <tr><td>Friday</td><td>7:30am to 4pm</td></tr>
+            <tr><td>Saturday</td><td>7:30am to 4pm</td></tr>
+            <tr><td>Sunday</td><td>9am to 3pm</td></tr>
+          </tbody>
+        </table>
+        <p style="color:var(--muted);font-size:.93rem;font-weight:300;margin-top:12px">Opening hours as listed on Google. The café's own menus give food 8am to 3pm Monday to Saturday and 9am to 2:30pm on Sunday.</p>
+        <ul class="contact">
+          <li>Good Vibes Cafe, 28 Killigrew Street, Falmouth TR11 3PN</li>
+          <li><a href="tel:+441326211870">01326 211870</a></li>
+          <li><a href="mailto:goodvibescafefalmouth@hotmail.com">goodvibescafefalmouth@hotmail.com</a></li>
+        </ul>
+        <div class="actions" style="margin-top:20px">
+          <a class="btn btn-green" href="https://www.google.com/maps/dir/?api=1&amp;destination=Good%20Vibes%20Cafe%2C%2028%20Killigrew%20Street%2C%20Falmouth%20TR11%203PN" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn btn-sun" href="tel:+441326211870">Call the café</a>
+        </div>
+      </div>
+      <iframe class="map" title="Map showing Good Vibes Cafe, 28 Killigrew Street, Falmouth" loading="lazy" src="https://www.google.com/maps?q=Good%20Vibes%20Cafe%2C%2028%20Killigrew%20Street%2C%20Falmouth%20TR11%203PN&amp;output=embed"></iframe>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Good Vibes Cafe, 28 Killigrew Street, Falmouth TR11 3PN · <a href="tel:+441326211870">01326 211870</a></span>
+    <div class="social">
+      <a href="https://www.facebook.com/GoodVibesCafeFalmouth" target="_blank" rel="noopener">Facebook</a>
+      <a href="mailto:goodvibescafefalmouth@hotmail.com">Email</a>
+    </div>
+    <span class="demo">Demo website prepared for Good Vibes Cafe by [YOUR NAME]. Not the official site.</span>
+  </div>
+</footer>
+
+<div class="callbar">
+  <a class="btn btn-sun" href="#menu">Menu</a>
+  <a class="btn btn-green" href="tel:+441326211870">Call</a>
+</div>
+
+<dialog id="lb">
+  <form method="dialog"><button class="x" aria-label="Close">✕</button></form>
+  <figure style="margin:0"><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure>
+</dialog>
+
+<script>
+// Opening hours, Europe/London. Minutes from midnight, Monday first, null = closed.
+var HOURS=[[450,960],[450,960],[450,960],[450,960],[450,960],[450,960],[540,900]];
+var fmt=function(m){var h=Math.floor(m/60),mm=m%60,ap=h>=12?'pm':'am',h12=((h+11)%12)+1;return h12+(mm?':'+String(mm).padStart(2,'0'):'')+ap};
+var p=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',weekday:'short',hour:'2-digit',minute:'2-digit',hour12:false}).formatToParts(new Date()).map(function(x){return [x.type,x.value]}));
+var day=['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].indexOf(p.weekday),now=(+p.hour%24)*60+(+p.minute),h=HOURS[day];
+var el=document.getElementById('status'),t=el.querySelector('span');
+if(h&&now>=h[0]&&now<h[1]){el.classList.add('open');t.textContent='Open now until '+fmt(h[1]);}
+else{var d=day,n=0;do{d=(d+1)%7;n++;}while(!HOURS[d]&&n<7);
+  t.textContent=(h&&now<h[0])?'Opens today at '+fmt(h[0]):'Closed · opens '+(n===1?'tomorrow':['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'][d])+' at '+fmt(HOURS[d][0]);}
+var rows=document.querySelectorAll('#hours tbody tr');if(rows[day])rows[day].classList.add('today');
+
+// Menu filter: veggie shows V, VG and the dishes the menu says can be made veggie
+var items=[].slice.call(document.querySelectorAll('#menulist .item'));
+var groups=[].slice.call(document.querySelectorAll('#menulist .mgroup'));
+var countEl=document.getElementById('count');
+var match=function(diet,want){
+  if(want==='all')return true;
+  if(diet==='all')return true;
+  if(want==='vg')return diet==='vg'||diet==='flex-vg';
+  return diet==='v'||diet==='vg'||diet==='flex-v'||diet==='flex-vg';
+};
+document.getElementById('filters').addEventListener('click',function(e){
+  var b=e.target.closest('button');if(!b)return;
+  var want=b.dataset.diet,shown=0;
+  [].forEach.call(this.querySelectorAll('button'),function(x){x.setAttribute('aria-pressed',String(x===b))});
+  items.forEach(function(it){
+    var ok=match(it.dataset.diet,want);
+    it.classList.toggle('hidden',!ok);
+    if(ok&&it.dataset.diet!=='all')shown++;
+  });
+  groups.forEach(function(g){
+    g.classList.toggle('hidden',!g.querySelector('.item:not(.hidden)'));
+  });
+  countEl.textContent=want==='all'?'Showing the whole menu.':
+    'Showing '+shown+' '+(want==='vg'?'vegan':'veggie and vegan')+' dishes, plus every drink.';
+});
+
+// Gallery lightbox
+var lb=document.getElementById('lb'),lbImg=document.getElementById('lb-img'),lbCap=document.getElementById('lb-cap');
+document.getElementById('gal').addEventListener('click',function(e){
+  var b=e.target.closest('button');if(!b)return;
+  var img=b.querySelector('img');
+  lbImg.src=img.src;lbImg.alt=img.alt;lbCap.textContent=b.dataset.cap;
+  if(lb.showModal)lb.showModal();
+});
+</script>
+</body>
+</html>
