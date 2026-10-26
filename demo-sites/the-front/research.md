@@ -19,3 +19,4 @@
 - Photos used: 7 owner photos from Google Maps, including the blurry gig photo, which is only ever shown small in the gallery.
 - NOT used: the 10 percent off real ales before 6pm that CAMRA lists, because the pack flags it as unconfirmed and an out of date discount on a live page would be worse than no discount. Also not used: the flyer's 2011 weekly line-up, the old cider chalkboard prices, and "Tuesday Bluesday", which is named in the what's on notes but has no confirmed date.
 - OWNER TO CONFIRM, in addition to the list above: whether the seafood van outside is a regular fixture and on which days.
+- Rewrite, same day: all copy moved into the first person, as the pub's own site. The CAMRA attribution moved off the customer-facing beer board and into the note for the owner, so the board reads as theirs.

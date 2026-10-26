@@ -20,3 +20,5 @@
 - Photo NOT used: cornish-board.jpg, the evening Cornish menu board. It is a one-off sea shanty evening and carries prices that are not the everyday menu, so showing it would imply a menu that may not run.
 - NOT used: the "Best Cafe in Cornwall award" mentioned in one review, because it is unverified.
 - OWNER TO CONFIRM, in addition to the list above: whether dogs are welcome, and whether the indoor cabin is open year round.
+- Rewrite, same day: all copy moved into the first person, as the café's own site. The chalkboard sign-off "Thank you for joining us at Castle Beach and supporting our business! Emily and the café team" is quoted from their own menu board photo and used as a signature band.
+- beach-huts.jpg dropped from the bundle, to leave the gallery on a full row.

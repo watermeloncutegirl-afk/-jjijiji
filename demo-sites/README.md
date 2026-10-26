@@ -16,19 +16,24 @@ Stories Tattoo Studio was researched but deliberately not built. The newest
 reviews found were one to three years old and no phone, hours or socials were
 found, so the studio needs an activity check first.
 
+The copy on all three is written in the first person, as the business's own
+site would be, and the credit line in the demo bar and footer reads "by
+Scarlett". To use a fuller name, swap it in one pass:
+
+```bash
+grep -rl 'by Scarlett' . | xargs sed -i 's/by Scarlett/by Scarlett Cherry Whitthread/g'
+```
+
 ## Before these go anywhere
 
-1. Replace `[YOUR NAME]` with the name that should appear in the demo bar and
-   footer credit line:
-
-   ```bash
-   grep -rl '\[YOUR NAME\]' . | xargs sed -i 's/\[YOUR NAME\]/Your Name/g'
-   ```
-
-2. Add the reviews. Every page carries labelled empty review slots rather than
+1. Add the reviews. Every page carries labelled empty review slots rather than
    invented quotes, because the research pack recorded review themes but not the
    verbatim text for these three. Reviews go in word for word, with the
    reviewer's name and "Google review", 4 and 5 star only.
+
+2. Check the map panel. Each page embeds a Google Maps iframe over a styled
+   fallback that shows the address and an "Open in Google Maps" button, so the
+   panel still looks deliberate anywhere the frame is blocked.
 
 ## Checking them locally
 

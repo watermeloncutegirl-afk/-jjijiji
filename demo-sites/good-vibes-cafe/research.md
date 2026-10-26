@@ -18,3 +18,4 @@
 - Hours conflict is shown on the page rather than resolved: Google says 7:30am to 4pm Monday to Saturday and 9am to 3pm Sunday, while the café's own menus give food 8am to 3pm and 9am to 2:30pm, drinks to 3:30pm and 3pm. The open and closed badge uses the Google hours. OWNER TO CONFIRM which is current.
 - Photos used: 12 owner photos from Google Maps, including both menu photos.
 - NOT used: the negatives raised in reviews (outside toilet, price, charge for dairy free milk).
+- Rewrite, same day: all copy moved into the first person, as the café's own site. The menu is laid out to echo their printed card, and both menu photos now sit inside the menu panel, where they double as proof the prices were read off their own menu.
