@@ -359,3 +359,72 @@ the connection level rather than returning an HTTP error, so the endpoint shape,
 header and limits can't be confirmed without a key. Nothing to infer from that either
 way — it's just why the questions in `overton-support-email.md` have to be asked
 rather than discovered.
+
+---
+
+## 10. No API access — what still works, and one finding that changes the trial
+
+### The finding: lead with citations, not name mentions
+
+Tested today against the **GOV.UK search API** (keyless, and its phrase search is
+genuine — `"Nicholas Stern"` returns 26, `"Dieter Helm"` 31, `"net zero"` 6,934):
+
+| Exact phrase | GOV.UK publications |
+|---|---|
+| `"Steffen Böhm"` | **0** |
+| `"Steffen Boehm"` | **0** |
+| `"Steffen Bohm"` | **0** |
+| `"Stefano Pascucci"` | **0** |
+
+Neither man is named anywhere in UK central government publications. That is not a
+judgement on their impact — GOV.UK is one national government, while Overton covers
+IGOs, think tanks and NGOs worldwide, which is where a sustainability scholar's
+footprint actually sits (IPCC, UNEP, EU, FAO, NGO reports).
+
+**But it is a warning about how to build the trial.** If name-in-text mentions are
+thin in the one corpus we can test for free, the headline number on a
+name-mention-led dashboard could come back small — and a small number in the trial
+kills the paid project. Böhm has **77 DOIs** in ORCID. So:
+
+> **Lead the dashboard with `cited_work` mentions (his research cited in policy
+> bibliographies), and make name-in-text the secondary panel.**
+
+Same data, same pipeline, honest either way — but the primary metric should be the
+one most likely to be both large and genuinely his.
+
+**Second trial risk:** Pascucci declares only 10 DOIs to Böhm's 77. In the
+side-by-side Steffen explicitly asked for, Pascucci would look weaker purely because
+his ORCID is sparse. Fix his publication list before building the comparison, or
+caption it unmistakably. Do not ship an unexplained 77-vs-10 chart about a colleague
+to his Director of Research.
+
+### Sources tested, and the verdict on each
+
+| Source | Key needed | Verdict |
+|---|---|---|
+| **ORCID public API** | none | **Works.** Identity, declared name variants, DOI list. Already in use. |
+| **OpenAlex** | free key (needs an email) | **The one gap worth closing.** Resolves by ORCID, returns the full DOI list and every printed name spelling. Fixes Pascucci. |
+| **GOV.UK search API** | none | **Works, complementary.** Real phrase search over UK gov publications. Zero for both trial names, but useful for other staff and free forever. |
+| Europe PMC | none | **Ruled out.** Biomedical bias: 3 works for Böhm by ORCID, 0 for Pascucci. |
+| Crossref author search | none | **Ruled out.** `query.author` is loose text matching — 231,189 hits for "Stefano Pascucci". |
+| Crossref Event Data | none | Unreachable from this container. |
+| Untested, worth adding | none | UN Digital Library, World Bank Open Knowledge Repository, EUR-Lex, OECD iLibrary, IPCC — open, and where this discipline's policy impact actually lives. |
+
+The useful by-product: having tested the free alternatives and found they don't
+substitute, you can tell Steffen *why* the Overton licence is worth mining rather
+than just asserting it. That is a stronger opening to a proposal than a feature list.
+
+### Retrieval without an API key
+
+You have **platform** access, so the trial is not blocked — it's manual:
+
+1. In Overton, run the citation search for each trial name and export CSV.
+2. Run the full-text search for each name variant (Böhm, Boehm, Bohm, Pascucci) and
+   export CSV.
+3. Drop the files in `overton/data/raw/`.
+
+That's roughly 8 exports and about twenty minutes of clicking. Everything downstream
+— normalise, classify, confidence tiers, Excel, dashboard — runs off those files
+unchanged, so the same code works later if a key ever arrives. Viable at 20 staff
+(a few hours of exports). Still not viable at 250, which stays API- or
+snapshot-dependent, and should be quoted that way.
