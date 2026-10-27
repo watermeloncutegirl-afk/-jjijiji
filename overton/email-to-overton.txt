@@ -1,0 +1,40 @@
+To: support@overton.io
+Cc: S.Boehm@exeter.ac.uk
+Subject: API access query — University of Exeter licence
+
+Hello,
+
+I'm working with Professor Steffen Böhm (Director of Research, Sustainable
+Futures, University of Exeter Business School, cc'd) on an internal dashboard
+showing how Exeter Management staff appear in the policy documents you index.
+Exeter holds an Overton licence and I have premium access on my own account.
+
+Before we scope the project, I'd like to confirm what our licence allows:
+
+1. Does Exeter's licence include REST API access, and if so, how is a key
+   issued? I'd be building on Exeter's behalf rather than for my own use, so
+   if the request needs to come from the institution or from Professor Böhm
+   as sponsor, please let me know and I'll arrange that.
+
+2. What are the rate limits, the maximum results per query, and any monthly
+   request quota?
+
+3. We need two query patterns: retrieving documents that cite a given DOI,
+   and full-text search for a researcher's name that returns the surrounding
+   text, so we can tell a bibliography citation apart from someone being
+   quoted as an expert or authoring the document themselves. Are both
+   supported via the API, and does the response include a usable text snippet?
+
+4. What do the terms permit for storing retrieved metadata and short
+   snippets, and re-displaying them in a dashboard used internally by the
+   subscribing institution?
+
+5. Phase one covers around 20 staff; a later phase may cover around 250 (the
+   whole Management department). Would the API suit that, or would the data
+   snapshot product be a better fit? If there's a cost difference between
+   them, could you outline it so we can budget?
+
+Happy to have a quick call if that's easier.
+
+Many thanks,
+Scarlett
