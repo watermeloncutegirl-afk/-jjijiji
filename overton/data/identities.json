@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "generated": "2026-10-27",
+    "stage": "01_resolve_identities",
+    "source": "ORCID public API v3.0 (pub.orcid.org, no authentication required)",
+    "note": "Name variants are taken from each researcher's own ORCID record, not guessed. DOI counts are ORCID-declared works only and are a floor, not a complete publication list."
+  },
+  "identities": [
+    {
+      "staff_id": "boehm_s",
+      "display_name": "Steffen Böhm",
+      "orcid": "0000-0002-0888-1362",
+      "name_variants": ["Steffen Böhm", "Steffen Bohm", "Steffen Boehm", "S. Böhm", "S. Bohm", "S. Boehm"],
+      "variants_source": "ORCID credit-name + other-name fields (Bohm, Boehm declared by him)",
+      "affiliations": ["University of Exeter", "University of Essex", "University of Lancaster", "University of Warwick"],
+      "orcid_works_total": 97,
+      "orcid_works_with_doi": 77,
+      "publication_years": "2003-2026",
+      "orcid_coverage": "good",
+      "notes": "Career spans four UK institutions. Affiliation-based disambiguation must accept all four, not Exeter alone, or pre-2015 policy mentions will be scored as unverified."
+    },
+    {
+      "staff_id": "pascucci_s",
+      "display_name": "Stefano Pascucci",
+      "orcid": "0000-0001-5925-9496",
+      "name_variants": ["Stefano Pascucci", "S. Pascucci"],
+      "variants_source": "ORCID credit-name only; no other-name entries declared",
+      "affiliations": ["University of Exeter Business School", "Universita degli Studi di Napoli Federico II", "Wageningen University"],
+      "orcid_works_total": 10,
+      "orcid_works_with_doi": 10,
+      "publication_years": "2017-2026",
+      "orcid_coverage": "sparse",
+      "notes": "ORCID record lists only 10 works against a far larger real output, so DOI-based citation matching would badly undercount him. Needs a fuller publication list (OpenAlex by ORCID) before his numbers can be trusted. ORCID display name also lacks the family name. Common surname, so text mentions need disambiguation."
+    }
+  ]
+}

@@ -305,3 +305,57 @@ His feedback and this project fit together, so act on them at once:
 - Cut the tool list to ≤6 distinct tools (his word was "bewildering" at 10+). A
   "policy-impact / research-visibility dashboard" is now one genuinely distinct tool
   with a named client behind it — exactly the distinctness he said was missing.
+
+---
+
+## 9. Findings from the live stage-1 run (27 Oct 2026)
+
+Stage 1 doesn't touch Overton, so it ran today against the **ORCID public API**,
+which needs no key and no authentication. Both trial identities resolved, and the
+results change three things in the plan above.
+
+### Böhm — the variant problem is already solved, from his own record
+ORCID **0000-0002-0888-1362**. His ORCID record declares the other-name forms
+**"Steffen Bohm"** and **"Steffen Boehm"** himself. So the three spellings he warned
+you about come from authoritative data, not from guesswork — the variant panel in the
+dashboard can cite its source. 97 declared works, 77 with DOIs, 2003–2026.
+
+**Change to the plan:** his career spans **Exeter, Essex, Lancaster and Warwick**.
+Stage 4 disambiguation must accept all four affiliation tokens. Scoring on "Exeter"
+alone would push his pre-2015 policy mentions into `unverified` and undercount him —
+the exact failure he already complained about, in a new form.
+
+### Pascucci — a coverage problem the dashboard has to disclose
+ORCID **0000-0001-5925-9496**, but the record lists only **10 works** (2017–2026)
+against a real output that is plainly much larger, and declares no name variants.
+DOI-based citation matching would therefore undercount him severely, and for the
+worst possible reason: not because his research has less policy reach, but because
+his ORCID is sparse.
+
+This is the single most useful thing to show Steffen. It means **dashboard quality
+depends on ORCID hygiene**, which hands him a concrete lever he controls: ask SF
+staff to populate their ORCID records. Build it into the product as a **"data
+readiness" column** per person (ORCID present / works declared / variants declared),
+and into the quote as a **data-readiness audit** line item for the 20- and 250-staff
+tiers. It turns an awkward caveat into something he can act on.
+
+**Change to the plan:** ORCID alone is not a sufficient publication source. Stage 1
+needs a fuller list keyed by ORCID, then the union of both.
+
+### Publication-source options, tested today
+- **ORCID public API** — works unauthenticated, reliable, but only as complete as the
+  researcher chose to make it. Good for variants and identity, not for full output.
+- **Crossref** — free and keyless, but `query.author` is a loose text match, not an
+  author identifier: "Stefano Pascucci" returned 231,189 results. Unusable as a
+  publication list without an ORCID filter. Also rate-limited on a shared IP.
+- **OpenAlex** — the right source, since it resolves by ORCID and returns both the
+  full DOI list and every name spelling in print. Its free tier is exhausted on this
+  container's shared IP, so it needs a free API key. **Getting one means submitting
+  your email address to OpenAlex** — your call, and I won't do it without you saying so.
+
+### Overton API — host confirmed, access not
+`api.overton.io` resolves (51.178.75.50) but refuses unauthenticated connections at
+the connection level rather than returning an HTTP error, so the endpoint shape, auth
+header and limits can't be confirmed without a key. Nothing to infer from that either
+way — it's just why the questions in `overton-support-email.md` have to be asked
+rather than discovered.
