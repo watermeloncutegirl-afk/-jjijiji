@@ -4,6 +4,18 @@ Send to **support@overton.io**.
 **cc Steffen Böhm** (S.Boehm@exeter.ac.uk) **and your Exeter liaison librarian**
 (via libraryhelp@exeter.ac.uk if you don't have a named contact).
 
+**Don't use the live chat widget on overton.io for this.** You need a written answer
+you can forward to Steffen with his funding request and keep on file if anyone later
+asks what permission the dashboard was built under. Chat gives you neither, and
+whoever answers it usually can't speak for the licence terms anyway.
+
+If the email inbox stalls, the better route is sideways rather than back to chat:
+**ask your Exeter liaison librarian who Exeter's Overton account manager is.** Every
+institutional subscription has a named rep, the library deals with them at renewal,
+and a licence-scope question from the account manager's own customer gets a
+definitive answer far faster than a support queue. For Q1, Q4 and Q5 below, the
+account manager is the correct person — support can only really answer Q2 and Q3.
+
 Why cc them: Overton licences are institutional. The moment they see a named
 professor at the subscribing institution on the thread, you stop looking like an
 individual asking for developer access and start looking like a contractor doing
